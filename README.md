@@ -2,7 +2,14 @@
 
 This script installs a number of common R packages automatically. If you have installed all dependencies using the BlueGreen Labs research environment script you should not encounter any installation issues.
 
-# Development tools
+You run the installation by using:
+
+```r
+source("install_R_environment.R")
+```
+# Package list
+
+## Development tools
 
 - utils
 - devtools
@@ -16,7 +23,7 @@ This script installs a number of common R packages automatically. If you have in
 - testthat
 - usethis
 
-# Geospatial tools
+## Geospatial tools
 
 - raster
 - terra
@@ -30,7 +37,7 @@ This script installs a number of common R packages automatically. If you have in
 - ncdf4
 - gdalUtils
 
-# (tidy) Data wrangling
+## (tidy) Data wrangling
 
 - tidyverse
 - broom
@@ -38,18 +45,18 @@ This script installs a number of common R packages automatically. If you have in
 - lubridate
 - patchwork
 
-# Model optimization
+## Model optimization
 
 - BayesianTools
 - GenSA
   
-# Machine Learning
+## Machine Learning
 
 - randomForest
 - keras
 - caret
 
-# Movement Ecology
+## Movement Ecology
 
 - TODO
 
