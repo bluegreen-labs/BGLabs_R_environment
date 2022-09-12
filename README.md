@@ -30,6 +30,7 @@ source("install_R_environment.R")
 - sf
 - rnaturalearth
 - rgdal
+- maptools
 - rgeos
 - MODISTools
 - daymetr
@@ -58,5 +59,6 @@ source("install_R_environment.R")
 
 ## Movement Ecology
 
-- TODO
+- geosphere
+- oce
 
