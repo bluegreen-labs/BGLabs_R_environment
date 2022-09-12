@@ -96,3 +96,15 @@ pkgs <- c(
 )
 
 invisible(lapply(pkgs, install_package))
+
+#---- movement ecology ----
+message("- Installing movement ecology tools")
+
+pkgs <- c(
+  "oce",
+  "geosphere",
+  "igrf"
+)
+
+invisible(lapply(pkgs, install_package))
+
