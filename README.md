@@ -34,6 +34,7 @@ source("install_R_environment.R")
 - rgeos
 - MODISTools
 - daymetr
+- mapview
 - ecmwfr
 - ncdf4
 - gdalUtils
