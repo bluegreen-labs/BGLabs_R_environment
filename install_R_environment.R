@@ -48,6 +48,7 @@ pkgs <- c(
   "rnaturalearth",
   "rgdal",
   "rgeos",
+  "mapview",
   "MODISTools",
   "daymetr",
   "ecmwfr",
