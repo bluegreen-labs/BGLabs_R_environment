@@ -102,9 +102,17 @@ invisible(lapply(pkgs, install_package))
 message("- Installing movement ecology tools")
 
 pkgs <- c(
+  "bluegreen-labs/geoloctools",
   "oce",
   "geosphere",
-  "igrf"
+  "igrf",
+  "circular",
+  "FlightR",
+  "SWotherspoon/SGAT",
+  "SWotherspoon/BAStag",
+  "SLisovski/GeoLight",
+  "SLisovski/TwGeos",
+  "GeoLocTools"
 )
 
 invisible(lapply(pkgs, install_package))
