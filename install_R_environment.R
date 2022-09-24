@@ -1,5 +1,9 @@
 # installing required R packages from the main repo
-options(repos=structure(c(CRAN = "http://cran.r-project.org")))
+options(repos = c(
+  binary = "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
+  source = "https://packagemanager.rstudio.com/all/latest",
+  CRAN = "https://cloud.r-project.org"
+))
 
 install_package <- function(package){
   if (grepl("/", package)){
