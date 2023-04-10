@@ -1,8 +1,7 @@
 # installing required R packages from the main repo
 # or binary distributions if available from RStudio
 options(repos = c(
-  binary = "https://packagemanager.rstudio.com/all/__linux__/jammy/latest",
-  source = "https://packagemanager.rstudio.com/all/latest",
+  binary = "https://packagemanager.rstudio.com/cran/__linux__/jammy/latest",
   CRAN = "https://cloud.r-project.org"
 ))
 
